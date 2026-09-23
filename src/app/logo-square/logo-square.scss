@@ -1,0 +1,38 @@
+.frame {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.tile {
+  cursor: pointer;
+
+  &.red {
+    background-color: #f25022;
+  }
+
+  &.green {
+    background-color: #7fba00;
+  }
+
+  &.blue {
+    background-color: #00a4ef;
+  }
+
+  &.yellow {
+    background-color: #ffb900;
+  }
+}

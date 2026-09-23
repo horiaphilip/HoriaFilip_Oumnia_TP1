@@ -1,0 +1,9 @@
+<div class="page" [style.background-color]="backgroundColor">
+  <app-header />
+
+  <main class="content">
+    <app-logo-square (colorPicked)="onColorPicked($event)" />
+  </main>
+
+  <app-footer />
+</div>
